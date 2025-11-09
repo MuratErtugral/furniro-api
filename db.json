@@ -1,543 +1,1815 @@
 {
   "products": [
-  {
-    "id": 1,
-    "name": "asgaard-sofa",
-    "category": "Sofas",
-    "price": 250000,
-    "oldPrice": 0,
-    "description": "Kilburn sınıfının en yüksek sesine yaklaşan, dengeli mid ve geniş tiz sunan kompakt bir koltuk tasarımıyla yaşam alanınıza karakter katar.",
-     "images": [
-      { "id": 1, "url": "/assets/images/product-album/sofaset-main.png", "alt": "Koltuk Takımı" },
-      { "id": 2, "url": "/assets/images/product-album/sofaset-1.png", "alt": "Koltuk Takımı 2" },
-      { "id": 3, "url": "/assets/images/product-album/sofaset-2.png", "alt": "Koltuk Takımı 3" },
-      { "id": 4, "url": "/assets/images/product-album/sofaset-3.png", "alt": "Koltuk Takımı 4" },
-      { "id": 5, "url": "/assets/images/product-album/sofaset-4.png", "alt": "Koltuk Takımı 5" }
-    ],
-    "sku": "SS009",
-    "tags": ["Sofa", "Chair", "Home", "Shop"],   
-    "discount": 30,
-    "isNew": false,
-    "rating": { "stars": 3, "reviewCount": 5, "reviewText": "5 Customer Reviews" },
-     "colorOptions": [
-      { "name": "Purple", "hexCode": "#9370DB" },
-      { "name": "Black", "hexCode": "#1E1E1E" },
-      { "name": "Gold", "hexCode": "#B8860B" }
-    ]
-  },
-  {
-    "id": "2",
-    "name": "Leviosa",
-    "category": "Living Room",
-    "price": 2600,
-    "oldPrice": 0,
-    "description": "Leviosa, her mekana uyum sağlayan zarif ve konforlu bir sandalyedir. Hem modern hem de klasik dekorasyon stilleriyle mükemmel bir uyum yakalar.",
-    "images": [
-      { "id": 1, "url": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=2158&auto=format&fit=crop", "alt": "Sandalye 1" },
-      { "id": 2, "url": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?q=80&w=1974&auto=format&fit=crop", "alt": "Sandalye 2" }
-    ],
-    "isNew": false,
-    "discount": 0,
-    "sku": "SS002",
-    "tags": ["Chair", "Living Room"],
-    "rating": { "stars": 4.2, "reviewCount": 18, "reviewText": "18 Customer Reviews" },
-    "colorOptions": [
-      { "name": "Beige", "hexCode": "#F5F5DC" },
-      { "name": "Charcoal", "hexCode": "#36454F" },
-      { "name": "Teal", "hexCode": "#008080" }
-    ]
-  },
-  {
-    "id": "3",
-    "name": "Lolito",
-    "category": "Dining",
-    "price": 9800,
-    "oldPrice": 14000,
-    "description": "Geniş oturma alanı ve lüks kumaşıyla Lolito, aileniz ve misafirleriniz için maksimum konfor sunan büyük bir kanepedir.",
-    "images": [
-      { "id": 1, "url": "https://images.unsplash.com/photo-1540574163024-5735f35c235b?q=80&w=2070&auto=format&fit=crop", "alt": "Kanepe 1" },
-      { "id": 2, "url": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=2070&auto=format&fit=crop", "alt": "Kanepe 2" },
-      { "id": 3, "url": "https://images.unsplash.com/photo-1588422230154-1a7c8b0c6a85?q=80&w=1935&auto=format&fit=crop", "alt": "Kanepe 3" }
-    ],
-    "isNew": false,
-    "discount": 30,
-    "sku": "SS003",
-    "tags": ["Sofa", "Luxury", "Home"],
-    "rating": { "stars": 4.7, "reviewCount": 27, "reviewText": "27 Customer Reviews" },
-    "colorOptions": [
-      { "name": "Gray", "hexCode": "#808080" },
-      { "name": "Blue", "hexCode": "#4682B4" },
-      { "name": "Ivory", "hexCode": "#FFFFF0" }
-    ]
-  },
-  {
-    "id": "4",
-    "name": "Respira",
-    "category": "Outdoor",
-    "price": 5300,
-    "oldPrice": 0,
-    "description": "Respira, bahçenizde veya terasınızda keyifli anlar geçirmeniz için tasarlanmış, hava koşullarına dayanıklı minimalist bir dış mekan kanepesidir.",
-    "images": [
-      { "id": 1, "url": "https://images.unsplash.com/photo-1594013524438-e6d8a4a58d6b?q=80&w=1974&auto=format&fit=crop", "alt": "Dış mekan kanepe 1" },
-      { "id": 2, "url": "https://images.unsplash.com/photo-1590326002235-6f17e76e1039?q=80&w=1964&auto=format&fit=crop", "alt": "Dış mekan kanepe 2" }
-    ],
-    "isNew": true,
-    "discount": 0,
-    "sku": "SS004",
-    "tags": ["Outdoor", "Sofa", "Minimalist"],
-    "rating": { "stars": 4.4, "reviewCount": 12, "reviewText": "12 Customer Reviews" },
-    "colorOptions": [
-      { "name": "Sand", "hexCode": "#C2B280" },
-      { "name": "Olive", "hexCode": "#556B2F" },
-      { "name": "Taupe", "hexCode": "#483C32" }
-    ]
-  },
-  {
-    "id": "5",
-    "name": "Grifo",
-    "category": "Bedroom",
-    "price": 1500,
-    "oldPrice": 0,
-    "description": "Grifo, yatak odanız için şık bir aydınlatma çözümü sunan modern bir gece lambasıdır. Kitap okumak için idealdir.",
-    "images": [
-      { "id": 1, "url": "https://images.unsplash.com/photo-1543198136-40848053086b?q=80&w=1974&auto=format&fit=crop", "alt": "Gece lambası" }
-    ],
-    "isNew": false,
-    "discount": 0,
-    "sku": "SS005",
-    "tags": ["Lamp", "Bedroom", "Light"],
-    "rating": { "stars": 4.1, "reviewCount": 9, "reviewText": "9 Customer Reviews" },
-    "colorOptions": [
-      { "name": "White", "hexCode": "#FFFFFF" },
-      { "name": "Matte Black", "hexCode": "#1F1F1F" }
-    ]
-  },
-  {
-    "id": "6",
-    "name": "Muggo",
-    "category": "Office",
-    "price": 3600,
-    "oldPrice": 0,
-    "description": "Ergonomik tasarımıyla Muggo, uzun saatler boyunca konforlu bir çalışma deneyimi sunan şık bir ofis sandalyesidir.",
-    "images": [
-      { "id": 1, "url": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1974&auto=format&fit=crop", "alt": "Ofis sandalyesi 1" },
-      { "id": 2, "url": "https://images.unsplash.com/photo-1581539250439-c96689196d2c?q=80&w=1974&auto=format&fit=crop", "alt": "Ofis sandalyesi 2" }
-    ],
-    "isNew": false,
-    "discount": 0,
-    "sku": "SS006",
-    "tags": ["Chair", "Office", "Ergonomic"],
-    "rating": { "stars": 4.5, "reviewCount": 33, "reviewText": "33 Customer Reviews" },
-    "colorOptions": [
-      { "name": "Black", "hexCode": "#000000" },
-      { "name": "Blue", "hexCode": "#1E90FF" }
-    ]
-  },
-  {
-    "id": "7",
-    "name": "Pingky",
-    "category": "Living Room",
-    "price": 7000,
-    "oldPrice": 10000,
-    "description": "Eğlenceli ve rahat tasarımıyla Pingky, modern yaşam alanlarına renk katacak konforlu bir kanepedir.",
-    "images": [
-      { "id": 1, "url": "https://images.unsplash.com/photo-1582582624323-2c1ab41b7a63?q=80&w=2070&auto=format&fit=crop", "alt": "Pembe kanepe" }
-    ],
-    "isNew": false,
-    "discount": 30,
-    "sku": "SS007",
-    "tags": ["Sofa", "Pink", "Fun"],
-    "rating": { "stars": 4.3, "reviewCount": 21, "reviewText": "21 Customer Reviews" },
-    "colorOptions": [
-      { "name": "Pink", "hexCode": "#FFC0CB" },
-      { "name": "Cream", "hexCode": "#FFFDD0" }
-    ]
-  },
-  {
-    "id": "8",
-    "name": "Potty",
-    "category": "Bedroom",
-    "price": 550,
-    "oldPrice": 0,
-    "description": "Potty, minimalist ve şık tasarımıyla bitkilerinizi sergilemek için mükemmel bir saksıdır.",
-    "images": [
-      { "id": 1, "url": "https://images.unsplash.com/photo-1592150621744-aca64f48394a?q=80&w=1974&auto=format&fit=crop", "alt": "Saksı 1" },
-      { "id": 2, "url": "https://images.unsplash.com/photo-1600166846100-75b871c26b61?q=80&w=1974&auto=format&fit=crop", "alt": "Saksı 2" }
-    ],
-    "isNew": true,
-    "discount": 0,
-    "sku": "SS008",
-    "tags": ["Pot", "Plant", "Decoration"],
-    "rating": { "stars": 4.0, "reviewCount": 6, "reviewText": "6 Customer Reviews" },
-    "colorOptions": [
-      { "name": "Terracotta", "hexCode": "#E2725B" },
-      { "name": "Stone", "hexCode": "#7D7D7D" }
-    ]
-  },
-  {
-    "id": "9",
-    "name": "Nordic Oak Table",
-    "category": "Dining",
-    "price": 8280,
-    "oldPrice": 9200,
-    "description": "Masif meşe yüzeye sahip, çizilmeye dayanıklı, 6 kişilik yemek masası.",
-    "images": [
-      { "id": 1, "url": "https://images.unsplash.com/photo-1583845112239-97ef1341b271?auto=format&fit=crop&w=1000&q=80" },
-      { "id": 2, "url": "https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&w=1000&q=80" },
-      { "id": 3, "url": "https://images.unsplash.com/photo-1604578762246-41134e37f9cc?auto=format&fit=crop&w=1000&q=80" },
-      { "id": 4, "url": "https://images.unsplash.com/photo-1636138389529-d35a2a348dc1?auto=format&fit=crop&w=1000&q=80" },
-      { "id": 5, "url": "https://images.unsplash.com/photo-1627992491080-793188b1cf1c?auto=format&fit=crop&w=1000&q=80" }
-    ],
-    "isNew": true,
-    "discount": 10,
-    "sku": "DT009",
-    "tags": ["Table", "Dining", "Wood"],
-    "rating": { "stars": 4.6, "reviewCount": 40, "reviewText": "40 Customer Reviews" },
-    "colorOptions": [
-      { "name": "Natural Oak", "hexCode": "#D2B48C" },
-      { "name": "Walnut", "hexCode": "#773F1A" }
-    ]
-  },
-  {
-    "id": "10",
-    "name": "Astra Nightstand",
-    "category": "Bedroom",
-    "price": 1100,
-    "oldPrice": 0,
-    "description": "Minimal çizgilere sahip, yumuşak kapanır çekmeceli komodin.",
-    "images": [
-      { "id": 1, "url": "https://images.unsplash.com/photo-1593194632872-3d19dab6e278?auto=format&fit=crop&w=1000&q=80" },
-      { "id": 2, "url": "https://plus.unsplash.com/premium_photo-1676823570572-966ea4c0e333?auto=format&fit=crop&w=1000&q=80" },
-      { "id": 3, "url": "https://plus.unsplash.com/premium_photo-1670359039163-0ca43c83f49b?auto=format&fit=crop&w=1000&q=80" },
-      { "id": 4, "url": "https://images.unsplash.com/photo-1611665860244-43cc95fa586e?auto=format&fit=crop&w=1000&q=80" },
-      { "id": 5, "url": "https://images.unsplash.com/photo-1625479968533-de325eb299a4?auto=format&fit=crop&w=1000&q=80" }
-
-    ],
-    "isNew": false,
-    "discount": 0,
-    "sku": "BD010",
-    "tags": ["Nightstand", "Storage"],
-    "rating": { "stars": 4.2, "reviewCount": 13, "reviewText": "13 Customer Reviews" },
-    "colorOptions": [
-      { "name": "Oak", "hexCode": "#C3A36A" },
-      { "name": "White", "hexCode": "#FFFFFF" }
-    ]
-  },
-  {
-    "id": "11",
-    "name": "Luna Floor Lamp",
-    "category": "Living Room",
-    "price": 1785,
-    "oldPrice": 2100,
-    "description": "Sıcak ışık yayan kumaş şapkalı, metal gövdeli yer lambası.",
-    "images": [
-      { "id": 1, "url": "https://images.unsplash.com/photo-1606425288528-4cebbfc69de7?auto=format&fit=crop&w=1000&q=80" },
-      { "id": 2, "url": "https://images.unsplash.com/photo-1566386429501-fe1523f35f40?auto=format&fit=crop&w=1000&q=80" },
-      { "id": 3, "url": "https://images.unsplash.com/photo-1640132219022-e7a98b4c92e9?auto=format&fit=crop&w=1000&q=80" },
-      { "id": 4, "url": "https://plus.unsplash.com/premium_photo-1733514433474-e91aeaed25fa?auto=format&fit=crop&w=1000&q=80" },
-      { "id": 5, "url": "https://images.unsplash.com/photo-1743578666060-49a1747d61df?auto=format&fit=crop&w=1000&q=80" }
-    ],
-    "isNew": false,
-    "discount": 15,
-    "sku": "LR011",
-    "tags": ["Lamp", "Lighting", "Living Room"],
-    "rating": { "stars": 4.3, "reviewCount": 22, "reviewText": "22 Customer Reviews" },
-    "colorOptions": [
-      { "name": "Brass", "hexCode": "#B5A642" },
-      { "name": "Matte Black", "hexCode": "#1F1F1F" }
-    ]
-  },
-  {
-    "id": "12",
-    "name": "Ergo Mesh Chair",
-    "category": "Office",
-    "price": 5130,
-    "oldPrice": 5400,
-    "description": "Bel desteği ayarlanabilir, nefes alan file sırtlı ofis sandalyesi.",
-    "images": [
-     { "id": 1, "url": "https://images.unsplash.com/photo-1612372606404-0ab33e7187ee?auto=format&fit=crop&w=1000&q=80" },
-    { "id": 2, "url": "https://plus.unsplash.com/premium_photo-1674049760153-144f4dc9208c?auto=format&fit=crop&w=1000&q=80" },
-    { "id": 3, "url": "https://images.unsplash.com/photo-1572521165329-b197f9ea3da6?auto=format&fit=crop&w=1000&q=80" },
-    { "id": 4, "url": "https://images.unsplash.com/photo-1505797149-43b0069ec26b?auto=format&fit=crop&w=1000&q=80" },
-    { "id": 5, "url": "https://images.unsplash.com/photo-1517502884422-41eaead166d4?auto=format&fit=crop&w=1000&q=80" }
-    ],
-    "isNew": true,
-    "discount": 5,
-    "sku": "OF012",
-    "tags": ["Chair", "Ergonomic", "Office"],
-    "rating": { "stars": 4.6, "reviewCount": 58, "reviewText": "58 Customer Reviews" },
-    "colorOptions": [
-      { "name": "Black", "hexCode": "#000000" },
-      { "name": "Gray", "hexCode": "#808080" }
-    ]
-  },
-  {
-    "id": "13",
-    "name": "Rattan Lounge Set",
-    "category": "Outdoor",
-    "price": 8800,
-    "oldPrice": 0,
-    "description": "UV korumalı sentetik rattan, yıkanabilir minderli 3 parçalı set.",
-    "images": [
-      { "id": 1, "url": "https://images.unsplash.com/photo-1555041469-8699ae041e1b?q=80&w=2070&auto=format&fit=crop", "alt": "Rattan set 1" },
-      { "id": 2, "url": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=2070&auto=format&fit=crop", "alt": "Rattan set 2" }
-    ],
-    "isNew": false,
-    "discount": 0,
-    "sku": "OD013",
-    "tags": ["Outdoor", "Set", "Rattan"],
-    "rating": { "stars": 4.4, "reviewCount": 19, "reviewText": "19 Customer Reviews" },
-    "colorOptions": [
-      { "name": "Natural", "hexCode": "#D2B48C" },
-      { "name": "Dark Brown", "hexCode": "#5C4033" }
-    ]
-  },
-  {
-    "id": "14",
-    "name": "Cloudy Rug",
-    "category": "Living Room",
-    "price": 2300,
-    "oldPrice": 0,
-    "description": "Yumuşak dokulu, leke tutmaz halı; 160×230 cm.",
-    "images": [
-      { "id": 1, "url": "https://images.unsplash.com/photo-1555041469-2323bc83176d?q=80&w=2070&auto=format&fit=crop", "alt": "Halı" }
-    ],
-    "isNew": true,
-    "discount": 0,
-    "sku": "LR014",
-    "tags": ["Rug", "Textile"],
-    "rating": { "stars": 4.2, "reviewCount": 11, "reviewText": "11 Customer Reviews" },
-    "colorOptions": [
-      { "name": "Cream", "hexCode": "#FFFDD0" },
-      { "name": "Gray", "hexCode": "#BEBEBE" }
-    ]
-  },
-  {
-    "id": "15",
-    "name": "Atlas Bookshelf",
-    "category": "Living Room",
-    "price": 4550,
-    "oldPrice": 5200,
-    "description": "Modüler metal çerçeveli, masif raflı kitaplık.",
-    "images": [
-      { "id": 1, "url": "https://images.unsplash.com/photo-1493666438817-866a91353ca9?q=80&w=1974&auto=format&fit=crop", "alt": "Kitaplık 1" },
-      { "id": 2, "url": "https://images.unsplash.com/photo-1490929118050-151c3f0e2ccf?q=80&w=1974&auto=format&fit=crop", "alt": "Kitaplık 2" }
-    ],
-    "isNew": false,
-    "discount": 12,
-    "sku": "LR015",
-    "tags": ["Bookshelf", "Storage"],
-    "rating": { "stars": 4.5, "reviewCount": 25, "reviewText": "25 Customer Reviews" },
-    "colorOptions": [
-      { "name": "Walnut", "hexCode": "#773F1A" },
-      { "name": "Black", "hexCode": "#000000" }
-    ]
-  },
-  {
-    "id": "16",
-    "name": "Serene Bed Frame",
-    "category": "Bedroom",
-    "price": 9800,
-    "oldPrice": 0,
-    "description": "Masif çam gövdeli, başlığı kumaş kaplı çift kişilik karyola.",
-    "images": [
-      { "id": 1, "url": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=1974&auto=format&fit=crop", "alt": "Karyola 1" },
-      { "id": 2, "url": "https://images.unsplash.com/photo-1495733715281-7cf71a079fa1?q=80&w=1974&auto=format&fit=crop", "alt": "Karyola 2" }
-    ],
-    "isNew": false,
-    "discount": 0,
-    "sku": "BD016",
-    "tags": ["Bed", "Frame", "Bedroom"],
-    "rating": { "stars": 4.4, "reviewCount": 30, "reviewText": "30 Customer Reviews" },
-    "colorOptions": [
-      { "name": "Oak", "hexCode": "#C3A36A" },
-      { "name": "Anthracite", "hexCode": "#293133" }
-    ]
-  },
-  {
-    "id": "17",
-    "name": "Pebble Coffee Table",
-    "category": "Living Room",
-    "price": 3200,
-    "oldPrice": 0,
-    "description": "Organik formlu, çizilmeye dayanıklı yüzeye sahip orta sehpa.",
-    "images": [
-      { "id": 1, "url": "https://images.unsplash.com/photo-1520880867055-1e30d1cb001c?q=80&w=1974&auto=format&fit=crop", "alt": "Orta sehpa" }
-    ],
-    "isNew": true,
-    "discount": 0,
-    "sku": "LR017",
-    "tags": ["Table", "Coffee", "Living Room"],
-    "rating": { "stars": 4.3, "reviewCount": 14, "reviewText": "14 Customer Reviews" },
-    "colorOptions": [
-      { "name": "Natural", "hexCode": "#D2B48C" },
-      { "name": "Black", "hexCode": "#000000" }
-    ]
-  },
-  {
-    "id": "18",
-    "name": "Comfy Recliner",
-    "category": "Living Room",
-    "price": 6624,
-    "oldPrice": 7200,
-    "description": "Ayak uzatma mekanizmalı, yumuşak dolgulu tekli koltuk.",
-    "images": [
-      { "id": 1, "url": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1974&auto=format&fit=crop", "alt": "Tekli koltuk" }
-    ],
-    "isNew": false,
-    "discount": 8,
-    "sku": "LR018",
-    "tags": ["Recliner", "Chair"],
-    "rating": { "stars": 4.5, "reviewCount": 48, "reviewText": "48 Customer Reviews" },
-    "colorOptions": [
-      { "name": "Brown", "hexCode": "#5C4033" },
-      { "name": "Gray", "hexCode": "#808080" }
-    ]
-  },
-  {
-    "id": "19",
-    "name": "Breeze Bar Stool",
-    "category": "Dining",
-    "price": 1100,
-    "oldPrice": 0,
-    "description": "Mutfak adaları için ideal, ayak destekli bar taburesi.",
-    "images": [
-      { "id": 1, "url": "https://images.unsplash.com/photo-1558211583-d26f610c87f3?q=80&w=1974&auto=format&fit=crop", "alt": "Bar taburesi" }
-    ],
-    "isNew": true,
-    "discount": 0,
-    "sku": "DN019",
-    "tags": ["Stool", "Dining"],
-    "rating": { "stars": 4.1, "reviewCount": 7, "reviewText": "7 Customer Reviews" },
-    "colorOptions": [
-      { "name": "Oak", "hexCode": "#C3A36A" },
-      { "name": "Black", "hexCode": "#000000" }
-    ]
-  },
-  {
-    "id": "20",
-    "name": "Nimbus Pendant",
-    "category": "Dining",
-    "price": 1900,
-    "oldPrice": 0,
-    "description": "Mat metal gövdeli, ayarlanabilir yükseklikli sarkıt lamba.",
-    "images": [
-      { "id": 1, "url": "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=1974&auto=format&fit=crop", "alt": "Sarkıt lamba" }
-    ],
-    "isNew": false,
-    "discount": 0,
-    "sku": "DN020",
-    "tags": ["Lighting", "Pendant"],
-    "rating": { "stars": 4.0, "reviewCount": 10, "reviewText": "10 Customer Reviews" },
-    "colorOptions": [
-      { "name": "Brushed Nickel", "hexCode": "#8C8C8C" },
-      { "name": "Matte Black", "hexCode": "#1F1F1F" }
-    ]
-  },
-  {
-    "id": "21",
-    "name": "Fold Desk",
-    "category": "Office",
-    "price": 3784,
-    "oldPrice": 4300,
-    "description": "Dar alanlar için katlanabilir, kablo yönetimli çalışma masası.",
-    "images": [
-      { "id": 1, "url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=1974&auto=format&fit=crop", "alt": "Çalışma masası 1" },
-      { "id": 2, "url": "https://images.unsplash.com/photo-1487014679447-9f8336841d58?q=80&w=1974&auto=format&fit=crop", "alt": "Çalışma masası 2" }
-    ],
-    "isNew": false,
-    "discount": 12,
-    "sku": "OF021",
-    "tags": ["Desk", "Office"],
-    "rating": { "stars": 4.3, "reviewCount": 17, "reviewText": "17 Customer Reviews" },
-    "colorOptions": [
-      { "name": "Oak", "hexCode": "#C3A36A" },
-      { "name": "White", "hexCode": "#FFFFFF" }
-    ]
-  },
-  {
-    "id": "22",
-    "name": "Sierra Dresser",
-    "category": "Bedroom",
-    "price": 5400,
-    "oldPrice": 0,
-    "description": "Yumuşak kapanır raylı, 6 çekmeceli şifonyer.",
-    "images": [
-      { "id": 1, "url": "https://images.unsplash.com/photo-1616593963514-3e05c61990f9?q=80&w=1974&auto=format&fit=crop", "alt": "Şifonyer" }
-    ],
-    "isNew": true,
-    "discount": 0,
-    "sku": "BD022",
-    "tags": ["Dresser", "Storage"],
-    "rating": { "stars": 4.2, "reviewCount": 15, "reviewText": "15 Customer Reviews" },
-    "colorOptions": [
-      { "name": "Oak", "hexCode": "#C3A36A" },
-      { "name": "Dark Walnut", "hexCode": "#4E2E1A" }
-    ]
-  },
-  {
-    "id": "23",
-    "name": "Cedar Wardrobe",
-    "category": "Bedroom",
-    "price": 8900,
-    "oldPrice": 9600,
-    "description": "Tam boy aynalı, doğal sedir kaplamalı gardırop.",
-    "images": [
-      { "id": 1, "url": "https://images.unsplash.com/photo-1616593963798-ff3d9c2f12a7?q=80&w=1974&auto=format&fit=crop", "alt": "Gardırop" }
-    ],
-    "isNew": false,
-    "discount": 7,
-    "sku": "BD023",
-    "tags": ["Wardrobe", "Closet"],
-    "rating": { "stars": 4.4, "reviewCount": 23, "reviewText": "23 Customer Reviews" },
-    "colorOptions": [
-      { "name": "Cedar", "hexCode": "#CD7F32" },
-      { "name": "White", "hexCode": "#FFFFFF" }
-    ]
-  },
-  {
-    "id": "24",
-    "name": "Terra Planter Set",
-    "category": "Outdoor",
-    "price": 950,
-    "oldPrice": 0,
-    "description": "Farklı boylarda 3’lü seramik saksı seti, drenaj delikli.",
-    "images": [
-      { "id": 1, "url": "https://images.unsplash.com/photo-1523419409543-a7c87f1f7c33?q=80&w=1974&auto=format&fit=crop", "alt": "Saksı seti" }
-    ],
-    "isNew": true,
-    "discount": 0,
-    "sku": "OD024",
-    "tags": ["Planter", "Outdoor", "Decoration"],
-    "rating": { "stars": 4.1, "reviewCount": 8, "reviewText": "8 Customer Reviews" },
-    "colorOptions": [
-      { "name": "Terracotta", "hexCode": "#E2725B" },
-      { "name": "Stone", "hexCode": "#7D7D7D" }
-    ]
-  },
-  {
-    "id": "25",
-    "name": "Harbor Bench",
-    "category": "Outdoor",
-    "price": 4089,
-    "oldPrice": 4700,
-    "description": "Dış mekâna uygun koruyucu cilalı, 2 kişilik ahşap bank.",
-    "images": [
-      { "id": 1, "url": "https://images.unsplash.com/photo-1496302662116-25b4efad5f04?q=80&w=1974&auto=format&fit=crop", "alt": "Ahşap bank 1" },
-      { "id": 2, "url": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1974&auto=format&fit=crop", "alt": "Ahşap bank 2" }
-    ],
-    "isNew": false,
-    "discount": 13,
-    "sku": "OD025",
-    "tags": ["Bench", "Garden"],
-    "rating": { "stars": 4.3, "reviewCount": 16, "reviewText": "16 Customer Reviews" },
-    "colorOptions": [
-      { "name": "Teak", "hexCode": "#B68C5A" },
-      { "name": "Ebony", "hexCode": "#555D50" }
-    ]
-  }
-],
- "blogs": [
+    {
+      "id": 1,
+      "name": "asgaard-sofa",
+      "category": "Sofas",
+      "price": 250000,
+      "oldPrice": 0,
+      "description": "Kilburn sınıfının en yüksek sesine yaklaşan, dengeli mid ve geniş tiz sunan kompakt bir koltuk tasarımıyla yaşam alanınıza karakter katar.",
+      "images": [
+        {
+          "id": 1,
+          "url": "/assets/images/product-album/sofaset-main.png",
+          "alt": "Koltuk Takımı"
+        },
+        {
+          "id": 2,
+          "url": "/assets/images/product-album/sofaset-1.png",
+          "alt": "Koltuk Takımı 2"
+        },
+        {
+          "id": 3,
+          "url": "/assets/images/product-album/sofaset-2.png",
+          "alt": "Koltuk Takımı 3"
+        },
+        {
+          "id": 4,
+          "url": "/assets/images/product-album/sofaset-3.png",
+          "alt": "Koltuk Takımı 4"
+        },
+        {
+          "id": 5,
+          "url": "/assets/images/product-album/sofaset-4.png",
+          "alt": "Koltuk Takımı 5"
+        }
+      ],
+      "sku": "SS009",
+      "tags": ["Sofa", "Chair", "Home", "Shop"],
+      "discount": 30,
+      "isNew": false,
+      "rating": {
+        "stars": 3,
+        "reviewCount": 5,
+        "reviewText": "5 Customer Reviews"
+      },
+      "colorOptions": [
+        { "name": "Purple", "hexCode": "#9370DB" },
+        { "name": "Black", "hexCode": "#1E1E1E" },
+        { "name": "Gold", "hexCode": "#B8860B" }
+      ],
+      "moreInfo": {
+        "description": [
+          "Kilburn sınıfının en yüksek sesine yaklaşan, dengeli mid ve geniş tiz sunan kompakt bir koltuk tasarımıyla yaşam alanınıza karakter katar.",
+          "Dayanıklı ahşap iskelet ve kolay temizlenen döşeme ile uzun ömürlü kullanım sunar. Modüler minder yapısı sayesinde hem rahat hem de formunu koruyan bir oturum sağlar."
+        ],
+        "descriptionImages": [
+          {
+            "id": 1,
+            "url": "/assets/images/product-album/sofaset-main.png",
+            "alt": "Detay 1"
+          },
+          {
+            "id": 2,
+            "url": "/assets/images/product-album/sofaset-1.png",
+            "alt": "Detay 2"
+          }
+        ],
+        "additionalInfo": [
+          { "key": "Malzeme", "value": "Linen kumaş, masif ahşap" },
+          { "key": "Ölçüler", "value": "200 × 150 × 80 cm" },
+          {
+            "key": "Bakım",
+            "value": "Nemli bezle siliniz, ağartıcı kullanmayınız"
+          }
+        ],
+        "reviews": [
+          {
+            "id": "rvw_1",
+            "author": "Seda",
+            "rating": 5,
+            "comment": "Kumaşı kaliteli ve oturumu çok rahat.",
+            "createdAt": "2025-05-12T10:21:00Z"
+          },
+          {
+            "id": "rvw_2",
+            "author": "Mert",
+            "rating": 4,
+            "comment": "Kurulumu kolaydı, teslimat 1 gün gecikti.",
+            "createdAt": "2025-05-15T14:03:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "name": "Leviosa",
+      "category": "Living Room",
+      "price": 2600,
+      "oldPrice": 0,
+      "description": "Leviosa, her mekana uyum sağlayan zarif ve konforlu bir sandalyedir. Hem modern hem de klasik dekorasyon stilleriyle mükemmel bir uyum yakalar.",
+      "images": [
+        {
+          "id": 1,
+          "url": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=2158&auto=format&fit=crop",
+          "alt": "Sandalye 1"
+        },
+        {
+          "id": 2,
+          "url": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?q=80&w=1974&auto=format&fit=crop",
+          "alt": "Sandalye 2"
+        }
+      ],
+      "isNew": false,
+      "discount": 0,
+      "sku": "SS002",
+      "tags": ["Chair", "Living Room"],
+      "rating": {
+        "stars": 4.2,
+        "reviewCount": 18,
+        "reviewText": "18 Customer Reviews"
+      },
+      "colorOptions": [
+        { "name": "Beige", "hexCode": "#F5F5DC" },
+        { "name": "Charcoal", "hexCode": "#36454F" },
+        { "name": "Teal", "hexCode": "#008080" }
+      ],
+      "moreInfo": {
+        "description": [
+          "Leviosa, her mekana uyum sağlayan zarif ve konforlu bir sandalyedir. Hem modern hem de klasik dekorasyon stilleriyle mükemmel bir uyum yakalar.",
+          "Ergonomik oturum ve sağlam ayak yapısıyla günlük kullanıma uygun; leke tutmayan döşemesi sayesinde kolay bakım imkanı sunar."
+        ],
+        "descriptionImages": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=2158&auto=format&fit=crop",
+            "alt": "Detay 1"
+          },
+          {
+            "id": 2,
+            "url": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?q=80&w=1974&auto=format&fit=crop",
+            "alt": "Detay 2"
+          }
+        ],
+        "additionalInfo": [
+          { "key": "Malzeme", "value": "Kumaş döşeme, metal ayak" },
+          { "key": "Taşıma Kapasitesi", "value": "120 kg" },
+          { "key": "Bakım", "value": "Kuru temizleme önerilir" }
+        ],
+        "reviews": [
+          {
+            "id": "rvw_1",
+            "author": "Elif",
+            "rating": 5,
+            "comment": "Oturumu rahat ve şık.",
+            "createdAt": "2025-04-22T09:12:00Z"
+          },
+          {
+            "id": "rvw_2",
+            "author": "Okan",
+            "rating": 4,
+            "comment": "Fiyat/performans başarılı.",
+            "createdAt": "2025-05-03T11:40:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "name": "Lolito",
+      "category": "Dining",
+      "price": 9800,
+      "oldPrice": 14000,
+      "description": "Geniş oturma alanı ve lüks kumaşıyla Lolito, aileniz ve misafirleriniz için maksimum konfor sunan büyük bir kanepedir.",
+      "images": [
+        {
+          "id": 1,
+          "url": "https://images.unsplash.com/photo-1540574163024-5735f35c235b?q=80&w=2070&auto=format&fit=crop",
+          "alt": "Kanepe 1"
+        },
+        {
+          "id": 2,
+          "url": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=2070&auto=format&fit=crop",
+          "alt": "Kanepe 2"
+        },
+        {
+          "id": 3,
+          "url": "https://images.unsplash.com/photo-1588422230154-1a7c8b0c6a85?q=80&w=1935&auto=format&fit=crop",
+          "alt": "Kanepe 3"
+        }
+      ],
+      "isNew": false,
+      "discount": 30,
+      "sku": "SS003",
+      "tags": ["Sofa", "Luxury", "Home"],
+      "rating": {
+        "stars": 4.7,
+        "reviewCount": 27,
+        "reviewText": "27 Customer Reviews"
+      },
+      "colorOptions": [
+        { "name": "Gray", "hexCode": "#808080" },
+        { "name": "Blue", "hexCode": "#4682B4" },
+        { "name": "Ivory", "hexCode": "#FFFFF0" }
+      ],
+      "moreInfo": {
+        "description": [
+          "Geniş oturma alanı ve lüks kumaşıyla Lolito, aileniz ve misafirleriniz için maksimum konfor sunan büyük bir kanepedir.",
+          "Yüksek yoğunluklu sünger ve dayanıklı döşeme, uzun süreli form koruması sağlar. Ahşap ayaklar zemini çizmez ve kolay taşınır."
+        ],
+        "descriptionImages": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1540574163024-5735f35c235b?q=80&w=2070&auto=format&fit=crop",
+            "alt": "Detay 1"
+          },
+          {
+            "id": 2,
+            "url": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=2070&auto=format&fit=crop",
+            "alt": "Detay 2"
+          }
+        ],
+        "additionalInfo": [
+          { "key": "Malzeme", "value": "Kadife görünümlü kumaş, ahşap ayak" },
+          { "key": "Oturum", "value": "3–4 kişilik geniş oturum" },
+          { "key": "Garanti", "value": "24 ay" }
+        ],
+        "reviews": [
+          {
+            "id": "rvw_1",
+            "author": "Zeynep",
+            "rating": 5,
+            "comment": "Salonun yıldızı oldu.",
+            "createdAt": "2025-04-05T12:05:00Z"
+          },
+          {
+            "id": "rvw_2",
+            "author": "Kerem",
+            "rating": 4,
+            "comment": "Renk gerçekte daha da güzel.",
+            "createdAt": "2025-05-01T16:41:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "name": "Respira",
+      "category": "Outdoor",
+      "price": 5300,
+      "oldPrice": 0,
+      "description": "Respira, bahçenizde veya terasınızda keyifli anlar geçirmeniz için tasarlanmış, hava koşullarına dayanıklı minimalist bir dış mekan kanepesidir.",
+      "images": [
+        {
+          "id": 1,
+          "url": "https://images.unsplash.com/photo-1594013524438-e6d8a4a58d6b?q=80&w=1974&auto=format&fit=crop",
+          "alt": "Dış mekan kanepe 1"
+        },
+        {
+          "id": 2,
+          "url": "https://images.unsplash.com/photo-1590326002235-6f17e76e1039?q=80&w=1964&auto=format&fit=crop",
+          "alt": "Dış mekan kanepe 2"
+        }
+      ],
+      "isNew": true,
+      "discount": 0,
+      "sku": "SS004",
+      "tags": ["Outdoor", "Sofa", "Minimalist"],
+      "rating": {
+        "stars": 4.4,
+        "reviewCount": 12,
+        "reviewText": "12 Customer Reviews"
+      },
+      "colorOptions": [
+        { "name": "Sand", "hexCode": "#C2B280" },
+        { "name": "Olive", "hexCode": "#556B2F" },
+        { "name": "Taupe", "hexCode": "#483C32" }
+      ],
+      "moreInfo": {
+        "description": [
+          "Respira, bahçenizde veya terasınızda keyifli anlar geçirmeniz için tasarlanmış, hava koşullarına dayanıklı minimalist bir dış mekan kanepesidir.",
+          "UV dayanımlı döşeme ve su itici kumaşla üretilmiştir. Hafif yapısı sayesinde mevsimsel yer değişimleri kolaydır."
+        ],
+        "descriptionImages": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1594013524438-e6d8a4a58d6b?q=80&w=1974&auto=format&fit=crop",
+            "alt": "Detay 1"
+          },
+          {
+            "id": 2,
+            "url": "https://images.unsplash.com/photo-1590326002235-6f17e76e1039?q=80&w=1964&auto=format&fit=crop",
+            "alt": "Detay 2"
+          }
+        ],
+        "additionalInfo": [
+          { "key": "Kullanım", "value": "Dış mekan (UV, su itici)" },
+          { "key": "İskelet", "value": "Alüminyum" },
+          { "key": "Bakım", "value": "Hafif sabunlu suyla temizlenebilir" }
+        ],
+        "reviews": [
+          {
+            "id": "rvw_1",
+            "author": "Gökçe",
+            "rating": 5,
+            "comment": "Teras için ideal, yağmurdan etkilenmedi.",
+            "createdAt": "2025-04-18T15:10:00Z"
+          },
+          {
+            "id": "rvw_2",
+            "author": "Kaan",
+            "rating": 4,
+            "comment": "Kumaş kalitesi iyi, kurulum pratik.",
+            "createdAt": "2025-05-09T10:25:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "name": "Grifo",
+      "category": "Bedroom",
+      "price": 1500,
+      "oldPrice": 0,
+      "description": "Grifo, yatak odanız için şık bir aydınlatma çözümü sunan modern bir gece lambasıdır. Kitap okumak için idealdir.",
+      "images": [
+        {
+          "id": 1,
+          "url": "https://images.unsplash.com/photo-1543198136-40848053086b?q=80&w=1974&auto=format&fit=crop",
+          "alt": "Gece lambası"
+        }
+      ],
+      "isNew": false,
+      "discount": 0,
+      "sku": "SS005",
+      "tags": ["Lamp", "Bedroom", "Light"],
+      "rating": {
+        "stars": 4.1,
+        "reviewCount": 9,
+        "reviewText": "9 Customer Reviews"
+      },
+      "colorOptions": [
+        { "name": "White", "hexCode": "#FFFFFF" },
+        { "name": "Matte Black", "hexCode": "#1F1F1F" }
+      ],
+      "moreInfo": {
+        "description": [
+          "Grifo, yatak odanız için şık bir aydınlatma çözümü sunan modern bir gece lambasıdır. Kitap okumak için idealdir.",
+          "Sıcak ışık rengi göz yormaz; dokunmatik açma/kapama düğmesi ve üç kademeli parlaklık ile kişisel aydınlatma sağlar."
+        ],
+        "descriptionImages": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1543198136-40848053086b?q=80&w=1974&auto=format&fit=crop",
+            "alt": "Detay 1"
+          }
+        ],
+        "additionalInfo": [
+          { "key": "Ampul Tipi", "value": "E27 LED (max 10W)" },
+          { "key": "Kablo", "value": "1.5 m, örgü kaplı" },
+          { "key": "Garanti", "value": "24 ay" }
+        ],
+        "reviews": [
+          {
+            "id": "rvw_1",
+            "author": "Duygu",
+            "rating": 4,
+            "comment": "Işık tonu çok hoş, uyumadan önce yeterli.",
+            "createdAt": "2025-03-29T18:22:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "name": "Muggo",
+      "category": "Office",
+      "price": 3600,
+      "oldPrice": 0,
+      "description": "Ergonomik tasarımıyla Muggo, uzun saatler boyunca konforlu bir çalışma deneyimi sunan şık bir ofis sandalyesidir.",
+      "images": [
+        {
+          "id": 1,
+          "url": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1974&auto=format&fit=crop",
+          "alt": "Ofis sandalyesi 1"
+        },
+        {
+          "id": 2,
+          "url": "https://images.unsplash.com/photo-1581539250439-c96689196d2c?q=80&w=1974&auto=format&fit=crop",
+          "alt": "Ofis sandalyesi 2"
+        }
+      ],
+      "isNew": false,
+      "discount": 0,
+      "sku": "SS006",
+      "tags": ["Chair", "Office", "Ergonomic"],
+      "rating": {
+        "stars": 4.5,
+        "reviewCount": 33,
+        "reviewText": "33 Customer Reviews"
+      },
+      "colorOptions": [
+        { "name": "Black", "hexCode": "#000000" },
+        { "name": "Blue", "hexCode": "#1E90FF" }
+      ],
+      "moreInfo": {
+        "description": [
+          "Ergonomik tasarımıyla Muggo, uzun saatler boyunca konforlu bir çalışma deneyimi sunan şık bir ofis sandalyesidir.",
+          "Ayarlanabilir bel desteği ve nefes alan sırt yapısı ile terlemeyi azaltır; 360° döner mekanizma ve sessiz tekerleklerle hareket kabiliyeti yüksektir."
+        ],
+        "descriptionImages": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1974&auto=format&fit=crop",
+            "alt": "Detay 1"
+          },
+          {
+            "id": 2,
+            "url": "https://images.unsplash.com/photo-1581539250439-c96689196d2c?q=80&w=1974&auto=format&fit=crop",
+            "alt": "Detay 2"
+          }
+        ],
+        "additionalInfo": [
+          { "key": "Malzeme", "value": "File sırt, sünger oturum, metal ayak" },
+          { "key": "Ayarlamalar", "value": "Yükseklik, bel desteği, kolçak" },
+          { "key": "Kapasite", "value": "130 kg" }
+        ],
+        "reviews": [
+          {
+            "id": "rvw_1",
+            "author": "Tunç",
+            "rating": 5,
+            "comment": "Bel desteği muazzam, bütün gün rahat.",
+            "createdAt": "2025-04-10T09:45:00Z"
+          },
+          {
+            "id": "rvw_2",
+            "author": "Aylin",
+            "rating": 4,
+            "comment": "Kurulumu kolay, tekerlekler sessiz.",
+            "createdAt": "2025-05-02T13:12:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "name": "Pingky",
+      "category": "Living Room",
+      "price": 7000,
+      "oldPrice": 10000,
+      "description": "Eğlenceli ve rahat tasarımıyla Pingky, modern yaşam alanlarına renk katacak konforlu bir kanepedir.",
+      "images": [
+        {
+          "id": 1,
+          "url": "https://images.unsplash.com/photo-1582582624323-2c1ab41b7a63?q=80&w=2070&auto=format&fit=crop",
+          "alt": "Pembe kanepe"
+        }
+      ],
+      "isNew": false,
+      "discount": 30,
+      "sku": "SS007",
+      "tags": ["Sofa", "Pink", "Fun"],
+      "rating": {
+        "stars": 4.3,
+        "reviewCount": 21,
+        "reviewText": "21 Customer Reviews"
+      },
+      "colorOptions": [
+        { "name": "Pink", "hexCode": "#FFC0CB" },
+        { "name": "Cream", "hexCode": "#FFFDD0" }
+      ],
+      "moreInfo": {
+        "description": [
+          "Eğlenceli ve rahat tasarımıyla Pingky, modern yaşam alanlarına renk katacak konforlu bir kanepedir.",
+          "Yumuşak dokulu kumaşı kolay temizlenir; kompakt ölçüleri sayesinde küçük salon ve stüdyolarda da ferah bir görünüm sunar."
+        ],
+        "descriptionImages": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1582582624323-2c1ab41b7a63?q=80&w=2070&auto=format&fit=crop",
+            "alt": "Detay 1"
+          }
+        ],
+        "additionalInfo": [
+          { "key": "Malzeme", "value": "Mikrofiber kumaş, ahşap ayak" },
+          { "key": "Ölçüler", "value": "180 × 85 × 80 cm" }
+        ],
+        "reviews": [
+          {
+            "id": "rvw_1",
+            "author": "Melis",
+            "rating": 5,
+            "comment": "Rengi fotoğraftakinden bile güzel.",
+            "createdAt": "2025-03-30T17:05:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8",
+      "name": "Potty",
+      "category": "Bedroom",
+      "price": 550,
+      "oldPrice": 0,
+      "description": "Potty, minimalist ve şık tasarımıyla bitkilerinizi sergilemek için mükemmel bir saksıdır.",
+      "images": [
+        {
+          "id": 1,
+          "url": "https://images.unsplash.com/photo-1592150621744-aca64f48394a?q=80&w=1974&auto=format&fit=crop",
+          "alt": "Saksı 1"
+        },
+        {
+          "id": 2,
+          "url": "https://images.unsplash.com/photo-1600166846100-75b871c26b61?q=80&w=1974&auto=format&fit=crop",
+          "alt": "Saksı 2"
+        }
+      ],
+      "isNew": true,
+      "discount": 0,
+      "sku": "SS008",
+      "tags": ["Pot", "Plant", "Decoration"],
+      "rating": {
+        "stars": 4.0,
+        "reviewCount": 6,
+        "reviewText": "6 Customer Reviews"
+      },
+      "colorOptions": [
+        { "name": "Terracotta", "hexCode": "#E2725B" },
+        { "name": "Stone", "hexCode": "#7D7D7D" }
+      ],
+      "moreInfo": {
+        "description": [
+          "Potty, minimalist ve şık tasarımıyla bitkilerinizi sergilemek için mükemmel bir saksıdır.",
+          "Drenaj delikleri ve dayanıklı seramik yapısı ile iç/dış mekânda kullanıma uygundur."
+        ],
+        "descriptionImages": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1592150621744-aca64f48394a?q=80&w=1974&auto=format&fit=crop",
+            "alt": "Detay 1"
+          },
+          {
+            "id": 2,
+            "url": "https://images.unsplash.com/photo-1600166846100-75b871c26b61?q=80&w=1974&auto=format&fit=crop",
+            "alt": "Detay 2"
+          }
+        ],
+        "additionalInfo": [
+          { "key": "Boyut", "value": "Ø 18 cm, yükseklik 20 cm" },
+          { "key": "Kullanım", "value": "İç ve dış mekân" }
+        ],
+        "reviews": [
+          {
+            "id": "rvw_1",
+            "author": "Barış",
+            "rating": 4,
+            "comment": "Bitkiler için ideal, sağlam duruyor.",
+            "createdAt": "2025-04-12T13:50:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9",
+      "name": "Nordic Oak Table",
+      "category": "Dining",
+      "price": 8280,
+      "oldPrice": 9200,
+      "description": "Masif meşe yüzeye sahip, çizilmeye dayanıklı, 6 kişilik yemek masası.",
+      "images": [
+        {
+          "id": 1,
+          "url": "https://images.unsplash.com/photo-1583845112239-97ef1341b271?auto=format&fit=crop&w=1000&q=80"
+        },
+        {
+          "id": 2,
+          "url": "https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&w=1000&q=80"
+        },
+        {
+          "id": 3,
+          "url": "https://images.unsplash.com/photo-1604578762246-41134e37f9cc?auto=format&fit=crop&w=1000&q=80"
+        },
+        {
+          "id": 4,
+          "url": "https://images.unsplash.com/photo-1636138389529-d35a2a348dc1?auto=format&fit=crop&w=1000&q=80"
+        },
+        {
+          "id": 5,
+          "url": "https://images.unsplash.com/photo-1627992491080-793188b1cf1c?auto=format&fit=crop&w=1000&q=80"
+        }
+      ],
+      "isNew": true,
+      "discount": 10,
+      "sku": "DT009",
+      "tags": ["Table", "Dining", "Wood"],
+      "rating": {
+        "stars": 4.6,
+        "reviewCount": 40,
+        "reviewText": "40 Customer Reviews"
+      },
+      "colorOptions": [
+        { "name": "Natural Oak", "hexCode": "#D2B48C" },
+        { "name": "Walnut", "hexCode": "#773F1A" }
+      ],
+      "moreInfo": {
+        "description": [
+          "Masif meşe yüzeye sahip, çizilmeye dayanıklı, 6 kişilik yemek masası.",
+          "Isıya ve çizilmeye dayanıklı vernik ile korunmuştur; masif gövde uzun yıllar stabilite sağlar."
+        ],
+        "descriptionImages": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1583845112239-97ef1341b271?auto=format&fit=crop&w=1000&q=80",
+            "alt": "Detay 1"
+          },
+          {
+            "id": 2,
+            "url": "https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&w=1000&q=80",
+            "alt": "Detay 2"
+          }
+        ],
+        "additionalInfo": [
+          { "key": "Kapasite", "value": "6 kişi" },
+          { "key": "Malzeme", "value": "Masif meşe" },
+          { "key": "Yüzey", "value": "Mat vernik" }
+        ],
+        "reviews": [
+          {
+            "id": "rvw_1",
+            "author": "Sevgi",
+            "rating": 5,
+            "comment": "Ağaç dokusu harika, çok sağlam.",
+            "createdAt": "2025-05-06T10:20:00Z"
+          },
+          {
+            "id": "rvw_2",
+            "author": "Emre",
+            "rating": 4,
+            "comment": "Kurulum iki kişiyle kolay.",
+            "createdAt": "2025-05-11T12:44:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "10",
+      "name": "Astra Nightstand",
+      "category": "Bedroom",
+      "price": 1100,
+      "oldPrice": 0,
+      "description": "Minimal çizgilere sahip, yumuşak kapanır çekmeceli komodin.",
+      "images": [
+        {
+          "id": 1,
+          "url": "https://images.unsplash.com/photo-1593194632872-3d19dab6e278?auto=format&fit=crop&w=1000&q=80"
+        },
+        {
+          "id": 2,
+          "url": "https://plus.unsplash.com/premium_photo-1676823570572-966ea4c0e333?auto=format&fit=crop&w=1000&q=80"
+        },
+        {
+          "id": 3,
+          "url": "https://plus.unsplash.com/premium_photo-1670359039163-0ca43c83f49b?auto=format&fit=crop&w=1000&q=80"
+        },
+        {
+          "id": 4,
+          "url": "https://images.unsplash.com/photo-1611665860244-43cc95fa586e?auto=format&fit=crop&w=1000&q=80"
+        },
+        {
+          "id": 5,
+          "url": "https://images.unsplash.com/photo-1625479968533-de325eb299a4?auto=format&fit=crop&w=1000&q=80"
+        }
+      ],
+      "isNew": false,
+      "discount": 0,
+      "sku": "BD010",
+      "tags": ["Nightstand", "Storage"],
+      "rating": {
+        "stars": 4.2,
+        "reviewCount": 13,
+        "reviewText": "13 Customer Reviews"
+      },
+      "colorOptions": [
+        { "name": "Oak", "hexCode": "#C3A36A" },
+        { "name": "White", "hexCode": "#FFFFFF" }
+      ],
+      "moreInfo": {
+        "description": [
+          "Minimal çizgilere sahip, yumuşak kapanır çekmeceli komodin.",
+          "Geniş depolama hacmi ve çizilmeye dayanıklı yüzeyiyle yatak odanızda düzeni korumanıza yardımcı olur."
+        ],
+        "descriptionImages": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1593194632872-3d19dab6e278?auto=format&fit=crop&w=1000&q=80",
+            "alt": "Detay 1"
+          },
+          {
+            "id": 2,
+            "url": "https://plus.unsplash.com/premium_photo-1676823570572-966ea4c0e333?auto=format&fit=crop&w=1000&q=80",
+            "alt": "Detay 2"
+          }
+        ],
+        "additionalInfo": [
+          { "key": "Çekmece", "value": "1 adet, yumuşak kapanır" },
+          { "key": "Malzeme", "value": "MDF üzeri kaplama" }
+        ],
+        "reviews": [
+          {
+            "id": "rvw_1",
+            "author": "Hale",
+            "rating": 4,
+            "comment": "Şık ve kullanışlı.",
+            "createdAt": "2025-04-14T08:31:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "11",
+      "name": "Luna Floor Lamp",
+      "category": "Living Room",
+      "price": 1785,
+      "oldPrice": 2100,
+      "description": "Sıcak ışık yayan kumaş şapkalı, metal gövdeli yer lambası.",
+      "images": [
+        {
+          "id": 1,
+          "url": "https://images.unsplash.com/photo-1606425288528-4cebbfc69de7?auto=format&fit=crop&w=1000&q=80"
+        },
+        {
+          "id": 2,
+          "url": "https://images.unsplash.com/photo-1566386429501-fe1523f35f40?auto=format&fit=crop&w=1000&q=80"
+        },
+        {
+          "id": 3,
+          "url": "https://images.unsplash.com/photo-1640132219022-e7a98b4c92e9?auto=format&fit=crop&w=1000&q=80"
+        },
+        {
+          "id": 4,
+          "url": "https://plus.unsplash.com/premium_photo-1733514433474-e91aeaed25fa?auto=format&fit=crop&w=1000&q=80"
+        },
+        {
+          "id": 5,
+          "url": "https://images.unsplash.com/photo-1743578666060-49a1747d61df?auto=format&fit=crop&w=1000&q=80"
+        }
+      ],
+      "isNew": false,
+      "discount": 15,
+      "sku": "LR011",
+      "tags": ["Lamp", "Lighting", "Living Room"],
+      "rating": {
+        "stars": 4.3,
+        "reviewCount": 22,
+        "reviewText": "22 Customer Reviews"
+      },
+      "colorOptions": [
+        { "name": "Brass", "hexCode": "#B5A642" },
+        { "name": "Matte Black", "hexCode": "#1F1F1F" }
+      ],
+      "moreInfo": {
+        "description": [
+          "Sıcak ışık yayan kumaş şapkalı, metal gövdeli yer lambası.",
+          "Evinizde yumuşak ambiyans oluşturur; ayak pedallı anahtar ile pratik kullanım sunar."
+        ],
+        "descriptionImages": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1606425288528-4cebbfc69de7?auto=format&fit=crop&w=1000&q=80",
+            "alt": "Detay 1"
+          },
+          {
+            "id": 2,
+            "url": "https://images.unsplash.com/photo-1566386429501-fe1523f35f40?auto=format&fit=crop&w=1000&q=80",
+            "alt": "Detay 2"
+          }
+        ],
+        "additionalInfo": [
+          { "key": "Yükseklik", "value": "165 cm" },
+          { "key": "Ampul", "value": "E27 (dahil değildir)" }
+        ],
+        "reviews": [
+          {
+            "id": "rvw_1",
+            "author": "Sinem",
+            "rating": 5,
+            "comment": "Işık tonu ve şapka kalitesi çok iyi.",
+            "createdAt": "2025-03-20T19:11:00Z"
+          },
+          {
+            "id": "rvw_2",
+            "author": "Arda",
+            "rating": 4,
+            "comment": "Kablo biraz kısa ama ürün güzel.",
+            "createdAt": "2025-04-02T10:09:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "12",
+      "name": "Ergo Mesh Chair",
+      "category": "Office",
+      "price": 5130,
+      "oldPrice": 5400,
+      "description": "Bel desteği ayarlanabilir, nefes alan file sırtlı ofis sandalyesi.",
+      "images": [
+        {
+          "id": 1,
+          "url": "https://images.unsplash.com/photo-1612372606404-0ab33e7187ee?auto=format&fit=crop&w=1000&q=80"
+        },
+        {
+          "id": 2,
+          "url": "https://plus.unsplash.com/premium_photo-1674049760153-144f4dc9208c?auto=format&fit=crop&w=1000&q=80"
+        },
+        {
+          "id": 3,
+          "url": "https://images.unsplash.com/photo-1572521165329-b197f9ea3da6?auto=format&fit=crop&w=1000&q=80"
+        },
+        {
+          "id": 4,
+          "url": "https://images.unsplash.com/photo-1505797149-43b0069ec26b?auto=format&fit=crop&w=1000&q=80"
+        },
+        {
+          "id": 5,
+          "url": "https://images.unsplash.com/photo-1517502884422-41eaead166d4?auto=format&fit=crop&w=1000&q=80"
+        }
+      ],
+      "isNew": true,
+      "discount": 5,
+      "sku": "OF012",
+      "tags": ["Chair", "Ergonomic", "Office"],
+      "rating": {
+        "stars": 4.6,
+        "reviewCount": 58,
+        "reviewText": "58 Customer Reviews"
+      },
+      "colorOptions": [
+        { "name": "Black", "hexCode": "#000000" },
+        { "name": "Gray", "hexCode": "#808080" }
+      ],
+      "moreInfo": {
+        "description": [
+          "Bel desteği ayarlanabilir, nefes alan file sırtlı ofis sandalyesi.",
+          "Uzun çalışma saatlerinde serin ve destekleyici bir oturum sağlar; sınıf 3 amortisör ile güvenli yükseklik ayarı."
+        ],
+        "descriptionImages": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1612372606404-0ab33e7187ee?auto=format&fit=crop&w=1000&q=80",
+            "alt": "Detay 1"
+          },
+          {
+            "id": 2,
+            "url": "https://plus.unsplash.com/premium_photo-1674049760153-144f4dc9208c?auto=format&fit=crop&w=1000&q=80",
+            "alt": "Detay 2"
+          }
+        ],
+        "additionalInfo": [
+          { "key": "Ayarlamalar", "value": "Bel desteği, kolçak, yükseklik" },
+          { "key": "Kapasite", "value": "125 kg" }
+        ],
+        "reviews": [
+          {
+            "id": "rvw_1",
+            "author": "Yiğit",
+            "rating": 5,
+            "comment": "File sırt çok iyi nefes alıyor.",
+            "createdAt": "2025-05-08T08:05:00Z"
+          },
+          {
+            "id": "rvw_2",
+            "author": "Naz",
+            "rating": 4,
+            "comment": "Koltuk sertliği ideal.",
+            "createdAt": "2025-05-19T14:26:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13",
+      "name": "Rattan Lounge Set",
+      "category": "Outdoor",
+      "price": 8800,
+      "oldPrice": 0,
+      "description": "UV korumalı sentetik rattan, yıkanabilir minderli 3 parçalı set.",
+      "images": [
+        {
+          "id": 1,
+          "url": "https://images.unsplash.com/photo-1759722665606-3be48960d3a3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bG91bmdlJTIwc2V0fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500"
+        },
+        {
+          "id": 2,
+          "url": "https://images.unsplash.com/photo-1598299827130-5aa1d5149c8d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGxvdW5nZSUyMHNldHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500"
+        },
+        {
+          "id": 3,
+          "url": "https://images.unsplash.com/photo-1698373890183-ae3943362fda?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGxvdW5nZSUyMHNldHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500"
+        },
+        {
+          "id": 4,
+          "url": "https://images.unsplash.com/photo-1699108969289-ee5978cf4fe6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGxvdW5nZSUyMHNldHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500"
+        }
+      ],
+      "isNew": false,
+      "discount": 0,
+      "sku": "OD013",
+      "tags": ["Outdoor", "Set", "Rattan"],
+      "rating": {
+        "stars": 4.4,
+        "reviewCount": 19,
+        "reviewText": "19 Customer Reviews"
+      },
+      "colorOptions": [
+        { "name": "Natural", "hexCode": "#D2B48C" },
+        { "name": "Dark Brown", "hexCode": "#5C4033" }
+      ],
+      "moreInfo": {
+        "description": [
+          "UV korumalı sentetik rattan, yıkanabilir minderli 3 parçalı set.",
+          "Hafif gövde sayesinde yer değiştirmek kolaydır; paslanmaz bağlantılarla uzun ömürlü kullanım sağlar."
+        ],
+        "descriptionImages": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1759722665606-3be48960d3a3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bG91bmdlJTIwc2V0fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
+            "alt": "Detay 1"
+          },
+          {
+            "id": 2,
+            "url": "https://images.unsplash.com/photo-1598299827130-5aa1d5149c8d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGxvdW5nZSUyMHNldHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
+            "alt": "Detay 2"
+          }
+        ],
+        "additionalInfo": [
+          { "key": "Parça", "value": "2 koltuk + 1 sehpa" },
+          { "key": "Kılıf", "value": "Çıkarılabilir, yıkanabilir" }
+        ],
+        "reviews": [
+          {
+            "id": "rvw_1",
+            "author": "Onur",
+            "rating": 5,
+            "comment": "Balkonda harika durdu.",
+            "createdAt": "2025-05-02T12:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14",
+      "name": "Cloudy Rug",
+      "category": "Living Room",
+      "price": 2300,
+      "oldPrice": 0,
+      "description": "Yumuşak dokulu, leke tutmaz halı; 160×230 cm.",
+      "images": [
+        {
+          "id": 1,
+          "url": "https://images.unsplash.com/photo-1534889156217-d643df14f14a"
+        },
+        {
+          "id": 2,
+          "url": "https://images.unsplash.com/photo-1608724553456-89e963624dbb"
+        },
+        {
+          "id": 3,
+          "url": "https://images.unsplash.com/photo-1616047006789-b7af5afb8c20"
+        },
+        {
+          "id": 4,
+          "url": "https://images.unsplash.com/photo-1572123979839-3749e9973aba"
+        }
+      ],
+      "isNew": true,
+      "discount": 0,
+      "sku": "LR014",
+      "tags": ["Rug", "Textile"],
+      "rating": {
+        "stars": 4.2,
+        "reviewCount": 11,
+        "reviewText": "11 Customer Reviews"
+      },
+      "colorOptions": [
+        { "name": "Cream", "hexCode": "#FFFDD0" },
+        { "name": "Gray", "hexCode": "#BEBEBE" }
+      ],
+      "moreInfo": {
+        "description": [
+          "Yumuşak dokulu, leke tutmaz halı; 160×230 cm.",
+          "Tüy dökmeyen yapısı ve kaymaz tabanı sayesinde yoğun alanlarda da güvenle kullanılabilir."
+        ],
+        "descriptionImages": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1534889156217-d643df14f14a",
+            "alt": "Detay 1"
+          },
+          {
+            "id": 2,
+            "url": "https://images.unsplash.com/photo-1608724553456-89e963624dbb",
+            "alt": "Detay 2"
+          }
+        ],
+        "additionalInfo": [
+          { "key": "Ölçü", "value": "160 × 230 cm" },
+          { "key": "Taban", "value": "Kaymaz lateks" }
+        ],
+        "reviews": [
+          {
+            "id": "rvw_1",
+            "author": "Ece",
+            "rating": 5,
+            "comment": "Ayak altında çok yumuşak.",
+            "createdAt": "2025-04-07T09:02:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "15",
+      "name": "Atlas Bookshelf",
+      "category": "Living Room",
+      "price": 4550,
+      "oldPrice": 5200,
+      "description": "Modüler metal çerçeveli, masif raflı kitaplık.",
+      "images": [
+        {
+          "id": 1,
+          "url": "https://plus.unsplash.com/premium_photo-1683134241832-6066d2ebe7a3"
+        },
+        {
+          "id": 2,
+          "url": "https://images.unsplash.com/photo-1615884241431-d07c87e30ab2"
+        },
+        {
+          "id": 3,
+          "url": "https://images.unsplash.com/photo-1515542706656-8e6ef17a1521"
+        },
+        {
+          "id": 4,
+          "url": "https://images.unsplash.com/photo-1543248939-4296e1fea89b"
+        }
+      ],
+      "isNew": false,
+      "discount": 12,
+      "sku": "LR015",
+      "tags": ["Bookshelf", "Storage"],
+      "rating": {
+        "stars": 4.5,
+        "reviewCount": 25,
+        "reviewText": "25 Customer Reviews"
+      },
+      "colorOptions": [
+        { "name": "Walnut", "hexCode": "#773F1A" },
+        { "name": "Black", "hexCode": "#000000" }
+      ],
+      "moreInfo": {
+        "description": [
+          "Modüler metal çerçeveli, masif raflı kitaplık.",
+          "Yüksek taşıma kapasiteli raflar kitap ve dekorlar için sağlam bir çözüm sunar; duvara sabitleme aparatları dahildir."
+        ],
+        "descriptionImages": [
+          {
+            "id": 1,
+            "url": "https://plus.unsplash.com/premium_photo-1683134241832-6066d2ebe7a3",
+            "alt": "Detay 1"
+          },
+          {
+            "id": 2,
+            "url": "https://images.unsplash.com/photo-1615884241431-d07c87e30ab2",
+            "alt": "Detay 2"
+          }
+        ],
+        "additionalInfo": [
+          { "key": "Raf Sayısı", "value": "5" },
+          { "key": "Malzeme", "value": "Metal çerçeve, masif raf" }
+        ],
+        "reviews": [
+          {
+            "id": "rvw_1",
+            "author": "İlker",
+            "rating": 5,
+            "comment": "Kurulumu net ve sağlam.",
+            "createdAt": "2025-03-18T15:48:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "16",
+      "name": "Serene Bed Frame",
+      "category": "Bedroom",
+      "price": 9800,
+      "oldPrice": 0,
+      "description": "Masif çam gövdeli, başlığı kumaş kaplı çift kişilik karyola.",
+      "images": [
+        {
+          "id": 1,
+          "url": "https://images.unsplash.com/photo-1617325247661-675ab4b64ae2"
+        },
+        {
+          "id": 2,
+          "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+        },
+        {
+          "id": 3,
+          "url": "https://images.unsplash.com/photo-1552858725-2758b5fb1286"
+        },
+        {
+          "id": 4,
+          "url": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af"
+        },
+        {
+          "id": 5,
+          "url": "https://plus.unsplash.com/premium_photo-1671269705768-cad27668134c"
+        }
+      ],
+      "isNew": false,
+      "discount": 0,
+      "sku": "BD016",
+      "tags": ["Bed", "Frame", "Bedroom"],
+      "rating": {
+        "stars": 4.4,
+        "reviewCount": 30,
+        "reviewText": "30 Customer Reviews"
+      },
+      "colorOptions": [
+        { "name": "Oak", "hexCode": "#C3A36A" },
+        { "name": "Anthracite", "hexCode": "#293133" }
+      ],
+      "moreInfo": {
+        "description": [
+          "Masif çam gövdeli, başlığı kumaş kaplı çift kişilik karyola.",
+          "Sessiz bağlantı elemanları ve sağlam iskelet yapısıyla gıcırdama yapmaz; yüksek ayak sayesinde alt temizlik kolaydır."
+        ],
+        "descriptionImages": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1617325247661-675ab4b64ae2",
+            "alt": "Detay 1"
+          },
+          {
+            "id": 2,
+            "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+            "alt": "Detay 2"
+          }
+        ],
+        "additionalInfo": [
+          { "key": "Yatak Ölçüsü", "value": "160 × 200 cm" },
+          { "key": "Başlık", "value": "Kumaş kaplı, yumuşak dolgu" }
+        ],
+        "reviews": [
+          {
+            "id": "rvw_1",
+            "author": "Burcu",
+            "rating": 5,
+            "comment": "Çok sağlam, montaj talimatı net.",
+            "createdAt": "2025-04-27T12:23:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "17",
+      "name": "Pebble Coffee Table",
+      "category": "Living Room",
+      "price": 3200,
+      "oldPrice": 0,
+      "description": "Organik formlu, çizilmeye dayanıklı yüzeye sahip orta sehpa.",
+      "images": [
+        {
+          "id": 1,
+          "url": "https://plus.unsplash.com/premium_photo-1664193968861-5d23c7652008"
+        },
+        {
+          "id": 2,
+          "url": "https://images.unsplash.com/photo-1601276861758-2d9c5ca69a17"
+        },
+        {
+          "id": 3,
+          "url": "https://images.unsplash.com/photo-1581428982868-e410dd047a90"
+        },
+        {
+          "id": 4,
+          "url": "https://images.unsplash.com/photo-1605774337664-7a846e9cdf17"
+        }
+      ],
+      "isNew": true,
+      "discount": 0,
+      "sku": "LR017",
+      "tags": ["Table", "Coffee", "Living Room"],
+      "rating": {
+        "stars": 4.3,
+        "reviewCount": 14,
+        "reviewText": "14 Customer Reviews"
+      },
+      "colorOptions": [
+        { "name": "Natural", "hexCode": "#D2B48C" },
+        { "name": "Black", "hexCode": "#000000" }
+      ],
+      "moreInfo": {
+        "description": [
+          "Organik formlu, çizilmeye dayanıklı yüzeye sahip orta sehpa.",
+          "Yuvarlatılmış köşeler güvenli kullanım sağlar; kolay temizlenen yüzey günlük çiziklere dirençlidir."
+        ],
+        "descriptionImages": [
+          {
+            "id": 1,
+            "url": "https://plus.unsplash.com/premium_photo-1664193968861-5d23c7652008",
+            "alt": "Detay 1"
+          },
+          {
+            "id": 2,
+            "url": "https://images.unsplash.com/photo-1601276861758-2d9c5ca69a17",
+            "alt": "Detay 2"
+          }
+        ],
+        "additionalInfo": [
+          { "key": "Yükseklik", "value": "42 cm" },
+          { "key": "Malzeme", "value": "Laminant üst, masif ayak" }
+        ],
+        "reviews": [
+          {
+            "id": "rvw_1",
+            "author": "Nesli",
+            "rating": 4,
+            "comment": "Minimal ve kullanışlı.",
+            "createdAt": "2025-03-11T09:18:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "18",
+      "name": "Comfy Recliner",
+      "category": "Living Room",
+      "price": 6624,
+      "oldPrice": 7200,
+      "description": "Ayak uzatma mekanizmalı, yumuşak dolgulu tekli koltuk.",
+      "images": [
+        {
+          "id": 1,
+          "url": "https://images.unsplash.com/photo-1707848106960-74e1b223297b"
+        },
+        {
+          "id": 2,
+          "url": "https://images.unsplash.com/photo-1464288550599-43d5a73451b8"
+        },
+        {
+          "id": 3,
+          "url": "https://plus.unsplash.com/premium_photo-1673125287024-c6edab262607"
+        },
+        {
+          "id": 4,
+          "url": "https://plus.unsplash.com/premium_photo-1674574585307-d24795c9d5b2"
+        }
+      ],
+      "isNew": false,
+      "discount": 8,
+      "sku": "LR018",
+      "tags": ["Recliner", "Chair"],
+      "rating": {
+        "stars": 4.5,
+        "reviewCount": 48,
+        "reviewText": "48 Customer Reviews"
+      },
+      "colorOptions": [
+        { "name": "Brown", "hexCode": "#5C4033" },
+        { "name": "Gray", "hexCode": "#808080" }
+      ],
+      "moreInfo": {
+        "description": [
+          "Ayak uzatma mekanizmalı, yumuşak dolgulu tekli koltuk.",
+          "Senkron mekanizma ile sırt ve ayak uzatma hareketi uyumludur; leke tutmayan kumaş günlük kullanımda pratiklik sağlar."
+        ],
+        "descriptionImages": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1707848106960-74e1b223297b",
+            "alt": "Detay 1"
+          },
+          {
+            "id": 2,
+            "url": "https://images.unsplash.com/photo-1464288550599-43d5a73451b8",
+            "alt": "Detay 2"
+          }
+        ],
+        "additionalInfo": [
+          { "key": "Mekanizma", "value": "Manuel recliner" },
+          { "key": "Oturum", "value": "Yüksek yoğunluklu sünger" }
+        ],
+        "reviews": [
+          {
+            "id": "rvw_1",
+            "author": "Pelin",
+            "rating": 5,
+            "comment": "Film keyfi için müthiş rahat.",
+            "createdAt": "2025-04-21T20:40:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "19",
+      "name": "Breeze Bar Stool",
+      "category": "Dining",
+      "price": 1100,
+      "oldPrice": 0,
+      "description": "Mutfak adaları için ideal, ayak destekli bar taburesi.",
+      "images": [
+        {
+          "id": 1,
+          "url": "https://images.unsplash.com/photo-1647379276613-3b98fe23ee9a"
+        },
+        {
+          "id": 2,
+          "url": "https://images.unsplash.com/photo-1761471857679-ffe51b471af0"
+        },
+        {
+          "id": 3,
+          "url": "https://plus.unsplash.com/premium_photo-1661962720375-ce9097fb4d69"
+        },
+        {
+          "id": 4,
+          "url": "https://plus.unsplash.com/premium_photo-1675537857054-8c7e518553af"
+        }
+      ],
+      "isNew": true,
+      "discount": 0,
+      "sku": "DN019",
+      "tags": ["Stool", "Dining"],
+      "rating": {
+        "stars": 4.1,
+        "reviewCount": 7,
+        "reviewText": "7 Customer Reviews"
+      },
+      "colorOptions": [
+        { "name": "Oak", "hexCode": "#C3A36A" },
+        { "name": "Black", "hexCode": "#000000" }
+      ],
+      "moreInfo": {
+        "description": [
+          "Mutfak adaları için ideal, ayak destekli bar taburesi.",
+          "Kaymayı engelleyen ayak pabuçları ve destekli oturum ile uzun süreli kullanımda konfor sağlar."
+        ],
+        "descriptionImages": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1647379276613-3b98fe23ee9a",
+            "alt": "Detay 1"
+          },
+          {
+            "id": 2,
+            "url": "https://images.unsplash.com/photo-1761471857679-ffe51b471af0",
+            "alt": "Detay 2"
+          }
+        ],
+        "additionalInfo": [
+          { "key": "Oturum Yüksekliği", "value": "75 cm" },
+          { "key": "Malzeme", "value": "Masif ahşap, metal ayak" }
+        ],
+        "reviews": [
+          {
+            "id": "rvw_1",
+            "author": "Ali",
+            "rating": 4,
+            "comment": "Sağlam ve dengeli.",
+            "createdAt": "2025-02-16T11:15:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "20",
+      "name": "Nimbus Pendant",
+      "category": "Dining",
+      "price": 1900,
+      "oldPrice": 0,
+      "description": "Mat metal gövdeli, ayarlanabilir yükseklikli sarkıt lamba.",
+      "images": [
+        {
+          "id": 1,
+          "url": "https://images.unsplash.com/photo-1565814329452-e1efa11c5b89"
+        },
+        {
+          "id": 2,
+          "url": "https://images.unsplash.com/photo-1540932239986-30128078f3c5"
+        },
+        {
+          "id": 3,
+          "url": "https://plus.unsplash.com/premium_photo-1705582800047-1aacf1e0f0ba"
+        },
+        {
+          "id": 4,
+          "url": "https://images.unsplash.com/photo-1592622515232-6e3e2a0d3d9a"
+        },
+        {
+          "id": 5,
+          "url": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15"
+        }
+      ],
+      "isNew": false,
+      "discount": 0,
+      "sku": "DN020",
+      "tags": ["Lighting", "Pendant"],
+      "rating": {
+        "stars": 4.0,
+        "reviewCount": 10,
+        "reviewText": "10 Customer Reviews"
+      },
+      "colorOptions": [
+        { "name": "Brushed Nickel", "hexCode": "#8C8C8C" },
+        { "name": "Matte Black", "hexCode": "#1F1F1F" }
+      ],
+      "moreInfo": {
+        "description": [
+          "Mat metal gövdeli, ayarlanabilir yükseklikli sarkıt lamba.",
+          "Geniş aydınlatma yüzeyi ile yemek alanlarında homojen ışık sağlar; yüksek tavanlarda da şık bir vurgu oluşturur."
+        ],
+        "descriptionImages": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1565814329452-e1efa11c5b89",
+            "alt": "Detay 1"
+          },
+          {
+            "id": 2,
+            "url": "https://images.unsplash.com/photo-1540932239986-30128078f3c5",
+            "alt": "Detay 2"
+          }
+        ],
+        "additionalInfo": [
+          { "key": "Kablo Uzunluğu", "value": "120 cm (ayarlanabilir)" },
+          { "key": "Ampul", "value": "E27 uyumlu (dahil değil)" }
+        ],
+        "reviews": [
+          {
+            "id": "rvw_1",
+            "author": "Nil",
+            "rating": 4,
+            "comment": "Işık dağılımı güzel.",
+            "createdAt": "2025-04-09T20:01:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "21",
+      "name": "Fold Desk",
+      "category": "Office",
+      "price": 3784,
+      "oldPrice": 4300,
+      "description": "Dar alanlar için katlanabilir, kablo yönetimli çalışma masası.",
+      "images": [
+        {
+          "id": 1,
+          "url": "https://images.unsplash.com/photo-1609959914649-af7984c5b47f"
+        },
+        {
+          "id": 2,
+          "url": "https://images.unsplash.com/photo-1522591755584-8ef01cdf743b"
+        },
+        {
+          "id": 3,
+          "url": "https://images.unsplash.com/photo-1623679072629-3aaa0192a391"
+        },
+        {
+          "id": 4,
+          "url": "https://plus.unsplash.com/premium_photo-1683326528070-4ebec9188ae1"
+        },
+        {
+          "id": 5,
+          "url": "https://images.unsplash.com/photo-1599502452965-df0824971bb2"
+        }
+      ],
+      "isNew": false,
+      "discount": 12,
+      "sku": "OF021",
+      "tags": ["Desk", "Office"],
+      "rating": {
+        "stars": 4.3,
+        "reviewCount": 17,
+        "reviewText": "17 Customer Reviews"
+      },
+      "colorOptions": [
+        { "name": "Oak", "hexCode": "#C3A36A" },
+        { "name": "White", "hexCode": "#FFFFFF" }
+      ],
+      "moreInfo": {
+        "description": [
+          "Dar alanlar için katlanabilir, kablo yönetimli çalışma masası.",
+          "Katlandığında yer kaplamaz; kablo kanalları ile düzenli ve güvenli bir çalışma alanı sağlar."
+        ],
+        "descriptionImages": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1609959914649-af7984c5b47f",
+            "alt": "Detay 1"
+          },
+          {
+            "id": 2,
+            "url": "https://images.unsplash.com/photo-1522591755584-8ef01cdf743b",
+            "alt": "Detay 2"
+          }
+        ],
+        "additionalInfo": [
+          { "key": "Mekanizma", "value": "Katlanabilir" },
+          { "key": "Kablo Yönetimi", "value": "Gizli kanal" }
+        ],
+        "reviews": [
+          {
+            "id": "rvw_1",
+            "author": "Fırat",
+            "rating": 5,
+            "comment": "Küçük odada hayat kurtardı.",
+            "createdAt": "2025-05-03T09:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "22",
+      "name": "Sierra Dresser",
+      "category": "Bedroom",
+      "price": 5400,
+      "oldPrice": 0,
+      "description": "Yumuşak kapanır raylı, 6 çekmeceli şifonyer.",
+      "images": [
+        {
+          "id": 1,
+          "url": "https://plus.unsplash.com/premium_photo-1683129641904-708b4803689d"
+        },
+        {
+          "id": 2,
+          "url": "https://plus.unsplash.com/premium_photo-1683141318297-75a3d8e86476"
+        },
+        {
+          "id": 3,
+          "url": "https://images.unsplash.com/photo-1690310588492-fc8f92bff323"
+        },
+        {
+          "id": 4,
+          "url": "https://images.unsplash.com/photo-1603112089080-3ef8f7bb9dcf"
+        },
+        {
+          "id": 5,
+          "url": "https://images.unsplash.com/photo-1719035271030-c4f941639aaf"
+        }
+      ],
+      "isNew": true,
+      "discount": 0,
+      "sku": "BD022",
+      "tags": ["Dresser", "Storage"],
+      "rating": {
+        "stars": 4.2,
+        "reviewCount": 15,
+        "reviewText": "15 Customer Reviews"
+      },
+      "colorOptions": [
+        { "name": "Oak", "hexCode": "#C3A36A" },
+        { "name": "Dark Walnut", "hexCode": "#4E2E1A" }
+      ],
+      "moreInfo": {
+        "description": [
+          "Yumuşak kapanır raylı, 6 çekmeceli şifonyer.",
+          "Geniş çekmece hacmiyle kıyafet ve aksesuarlar için düzenli saklama alanı sunar."
+        ],
+        "descriptionImages": [
+          {
+            "id": 1,
+            "url": "https://plus.unsplash.com/premium_photo-1683129641904-708b4803689d",
+            "alt": "Detay 1"
+          },
+          {
+            "id": 2,
+            "url": "https://plus.unsplash.com/premium_photo-1683141318297-75a3d8e86476",
+            "alt": "Detay 2"
+          }
+        ],
+        "additionalInfo": [
+          { "key": "Çekmece Sayısı", "value": "6" },
+          { "key": "Ray", "value": "Yumuşak kapanır" }
+        ],
+        "reviews": [
+          {
+            "id": "rvw_1",
+            "author": "Yasemin",
+            "rating": 4,
+            "comment": "Çekmeceler sessiz çalışıyor.",
+            "createdAt": "2025-04-01T10:14:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "23",
+      "name": "Cedar Wardrobe",
+      "category": "Bedroom",
+      "price": 8900,
+      "oldPrice": 9600,
+      "description": "Tam boy aynalı, doğal sedir kaplamalı gardırop.",
+      "images": [
+        {
+          "id": 1,
+          "url": "https://images.unsplash.com/photo-1672137233327-37b0c1049e77"
+        },
+        {
+          "id": 2,
+          "url": "https://plus.unsplash.com/premium_photo-1670076515866-73822a3d610d"
+        },
+        {
+          "id": 3,
+          "url": "https://images.unsplash.com/photo-1611048268330-53de574cae3b"
+        },
+        {
+          "id": 4,
+          "url": "https://images.unsplash.com/photo-1631889993877-71e193bf79b8"
+        },
+        {
+          "id": 5,
+          "url": "https://images.unsplash.com/photo-1643949914877-b20f30792c1e"
+        }
+      ],
+      "isNew": false,
+      "discount": 7,
+      "sku": "BD023",
+      "tags": ["Wardrobe", "Closet"],
+      "rating": {
+        "stars": 4.4,
+        "reviewCount": 23,
+        "reviewText": "23 Customer Reviews"
+      },
+      "colorOptions": [
+        { "name": "Cedar", "hexCode": "#CD7F32" },
+        { "name": "White", "hexCode": "#FFFFFF" }
+      ],
+      "moreInfo": {
+        "description": [
+          "Tam boy aynalı, doğal sedir kaplamalı gardırop.",
+          "Geniş askı bölmesi ve ayarlanabilir raflar ile depolama esnekliği sunar."
+        ],
+        "descriptionImages": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1672137233327-37b0c1049e77",
+            "alt": "Detay 1"
+          },
+          {
+            "id": 2,
+            "url": "https://plus.unsplash.com/premium_photo-1670076515866-73822a3d610d",
+            "alt": "Detay 2"
+          }
+        ],
+        "additionalInfo": [
+          { "key": "Ayna", "value": "Tam boy kapak" },
+          { "key": "Raflar", "value": "Ayarlanabilir" }
+        ],
+        "reviews": [
+          {
+            "id": "rvw_1",
+            "author": "Aydın",
+            "rating": 5,
+            "comment": "Kapak mekanizması kaliteli.",
+            "createdAt": "2025-05-04T14:18:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "24",
+      "name": "Terra Planter Set",
+      "category": "Outdoor",
+      "price": 950,
+      "oldPrice": 0,
+      "description": "Farklı boylarda 3'lü seramik saksı seti, drenaj delikli.",
+      "images": [
+        {
+          "id": 1,
+          "url": "https://images.unsplash.com/photo-1692719968175-fa5d03b10557"
+        },
+        {
+          "id": 2,
+          "url": "https://images.unsplash.com/photo-1642604159027-dccf0970695b"
+        },
+        {
+          "id": 3,
+          "url": "https://images.unsplash.com/photo-1581829479168-6b31ca683b8a"
+        },
+        {
+          "id": 4,
+          "url": "https://images.unsplash.com/photo-1610232603071-0070518c79d7"
+        }
+      ],
+      "isNew": true,
+      "discount": 0,
+      "sku": "OD024",
+      "tags": ["Planter", "Outdoor", "Decoration"],
+      "rating": {
+        "stars": 4.1,
+        "reviewCount": 8,
+        "reviewText": "8 Customer Reviews"
+      },
+      "colorOptions": [
+        { "name": "Terracotta", "hexCode": "#E2725B" },
+        { "name": "Stone", "hexCode": "#7D7D7D" }
+      ],
+      "moreInfo": {
+        "description": [
+          "Farklı boylarda 3'lü seramik saksı seti, drenaj delikli.",
+          "Bitkiler için sağlıklı kök gelişimi sağlar; UV dayanımlı renk kaplaması uzun süre solmaz."
+        ],
+        "descriptionImages": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1692719968175-fa5d03b10557",
+            "alt": "Detay 1"
+          },
+          {
+            "id": 2,
+            "url": "https://images.unsplash.com/photo-1642604159027-dccf0970695b",
+            "alt": "Detay 2"
+          }
+        ],
+        "additionalInfo": [
+          { "key": "Set", "value": "3 farklı boy" },
+          { "key": "Kullanım", "value": "İç/Dış mekân" }
+        ],
+        "reviews": [
+          {
+            "id": "rvw_1",
+            "author": "Gamze",
+            "rating": 4,
+            "comment": "Renkleri çok hoş, delikler işlevsel.",
+            "createdAt": "2025-03-22T10:30:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "id": "25",
+      "name": "Harbor Bench",
+      "category": "Outdoor",
+      "price": 4089,
+      "oldPrice": 4700,
+      "description": "Dış mekâna uygun koruyucu cilalı, 2 kişilik ahşap bank.",
+      "images": [
+        {
+          "id": 1,
+          "url": "https://images.unsplash.com/photo-1445937888010-cc262f556033"
+        },
+        {
+          "id": 2,
+          "url": "https://images.unsplash.com/photo-1535385793343-27dff1413c5a"
+        },
+        {
+          "id": 3,
+          "url": "https://images.unsplash.com/photo-1762294676469-eada5efba0c8"
+        },
+        {
+          "id": 4,
+          "url": "https://images.unsplash.com/photo-1624929300439-03a546ac819e"
+        }
+      ],
+      "isNew": false,
+      "discount": 13,
+      "sku": "OD025",
+      "tags": ["Bench", "Garden"],
+      "rating": {
+        "stars": 4.3,
+        "reviewCount": 16,
+        "reviewText": "16 Customer Reviews"
+      },
+      "colorOptions": [
+        { "name": "Teak", "hexCode": "#B68C5A" },
+        { "name": "Ebony", "hexCode": "#555D50" }
+      ],
+      "moreInfo": {
+        "description": [
+          "Dış mekâna uygun koruyucu cilalı, 2 kişilik ahşap bank.",
+          "Suya dayanıklı cila ve paslanmaz bağlantılarla uzun ömürlü bir dış mekân oturma çözümü sunar."
+        ],
+        "descriptionImages": [
+          {
+            "id": 1,
+            "url": "https://images.unsplash.com/photo-1445937888010-cc262f556033",
+            "alt": "Detay 1"
+          },
+          {
+            "id": 2,
+            "url": "https://images.unsplash.com/photo-1535385793343-27dff1413c5a",
+            "alt": "Detay 2"
+          }
+        ],
+        "additionalInfo": [
+          { "key": "Kapasite", "value": "2 kişi" },
+          { "key": "Yüzey", "value": "Suya dayanıklı cila" }
+        ],
+        "reviews": [
+          {
+            "id": "rvw_1",
+            "author": "Sarp",
+            "rating": 5,
+            "comment": "Bahçede harika durdu, sağlam.",
+            "createdAt": "2025-04-30T12:00:00Z"
+          }
+        ]
+      }
+    }
+  ],
+  "blogs": [
     {
       "id": 1,
       "title": "Ahşap Dokularla Sıcak Bir Ev Atmosferi",
@@ -620,9 +1892,4 @@
       "content": "Masif meşe uzun ömürlüdür fakat doğru bakım ister. Nem dengesi, yüzey yağlama sıklığı ve ısıdan koruma gibi kritik noktaları; çizik ve leke giderme için uygulanabilir çözümleri paylaşıyoruz..."
     }
   ]
-
 }
-
-
-
-
